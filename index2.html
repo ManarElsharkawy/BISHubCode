@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Login form </title>
+  <link rel="stylesheet" href="style2.css">
+
+  <script src="main2.js" > </script>
+
+</head>
+
+  <body class="dark-mode">
+    <form action="index.php" method="post">
+      <div id="loginform"> 
+
+        <!-- button dark mode -->
+    
+        <button class="darkbutton" onclick=" DarkModeFunction()">  Night Mode</button>
+        <br><br>
+
+          <legend>
+             Login Form<br><br>
+          </legend>
+          <fieldset>
+
+          
+          <div>
+              <label for="txt">name :</label>
+              <input id="txt" type="text" placeholder="user name" required name="name">
+          </div>
+          <br> <br>
+
+        <div>
+            <label for="mail"> email :</label>
+            <input id="mail" type="email"  required name="email" placeholder="academic email">
+        </div>
+        <br> <br>
+
+        <!-- <div>
+            <label for="pass"> password  :</label>
+            <input id="pass" type="password"  required name="password" maxlength="10">
+        </div>
+        <br><br> -->
+
+
+        <div>
+          <textarea name="msg" rows="10" cols="150" placeholder="leave your message here if you want" autocomplete="off"> Enter a message </textarea>
+        </div>
+
+        <br> <br>
+        
+        <div>
+          <input type="submit" value="OK" class="btn" name="btnsubmit">
+          <br><br>
+          <input type ="reset" value="clear" class="btn" name="btnclear">
+        
+        </div>
+        <br><br>
+
+        <div>
+          <button type="button" name="btnNext" class="btnNext"> 
+            <a class="aNext" title="_blank" href="index.html"> Go To The Previous Page </a>
+          </button>
+        </div>
+        </div>
+      </fieldset>
+    </form>
+    
+  </body>
+</html>

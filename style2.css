@@ -1,0 +1,42 @@
+.darkbutton{
+  background-color: black;
+  color: white;
+  height:40px;
+  border-radius: 40px;
+  font-size: 30px;
+}
+
+
+body{
+  padding:30px;
+  background-color: white;
+  color:black;
+  font-size: 30px;
+}
+
+.dark-mode{
+  background-color: #000000;
+  color:white;
+}
+
+.aNext{
+  text-decoration: none;
+  color: red;
+} 
+
+.btnNext{
+  height: 50px;
+  border-radius: 40px;
+  font-size: 30px;
+  background-color:white;
+}
+
+
+.btn{
+  font-size: 30px;
+}
+
+#loginform{
+  margin: 20px auto;
+}
+
